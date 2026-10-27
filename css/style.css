@@ -1677,6 +1677,23 @@ section#about p {
 #book-review .meta img,
 #archive .meta img {
   width: 80px;
+  max-width: none;
+}
+#book-review .post-item,
+#archive .post-item {
+  align-items: flex-start;
+}
+#book-review .post-item .meta,
+#archive .post-item .meta {
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+.book-title,
+.book-author {
+  font-weight: 700;
+}
+.book-byline {
+  margin: 0 0 1rem;
 }
 .post .content img.book-cover {
   width: 200px;
