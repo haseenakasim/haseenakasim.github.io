@@ -1674,6 +1674,15 @@ section#about p {
   -webkit-hyphens: none;
   text-align: left;
 }
+#book-review .meta img,
+#archive .meta img {
+  width: 80px;
+}
+.post .content img.book-cover {
+  width: 200px;
+  float: left;
+  margin: 0 20px 10px 0;
+}
 #reading ul.post-list {
   margin-left: 20px;
 }
